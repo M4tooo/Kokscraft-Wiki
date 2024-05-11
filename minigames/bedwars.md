@@ -1,8 +1,9 @@
 # Bedwars 
 
 BedWars to popularny tryb gry typu PvP na wersji 1.8, w którym gracze walczą ze sobą, aby **zniszczyć łóżko przeciwnika**, jednocześnie **broniąc swoje**. Każda drużyna zaczyna na swojej wyspie z łóżkiem, które jest ich punktem odrodzenia. Gracze zbierają zasoby, takie jak **żelazo, złoto, diamenty i emeraldy**, aby ulepszać swoją drużynę, kupować ekwipunek i bronie oraz **budować obronę wokół swojego łóżka**. Głównym celem jest zniszczenie łóżka przeciwników, a następnie wyeliminowanie ich z gry. **Ostatnia drużyna lub gracz, który pozostanie na mapie, wygrywa rundę.**
-Na serwerze do wyboru mamy BedWars **solo, duo, trio i czwórki**. Każdy z tych rodzajów wymaga różnych umiejętności - walki, współpracy.  Do wyboru w solo i duo mamy 21 różnych map, a w trio i czwórkach jest ich aż 20.
+Na serwerze do wyboru mamy BedWars **solo, duo, trio i czwórki**. Każdy z tych rodzajów wymaga różnych umiejętności - walki, współpracy.
 Limit budowania wynosi około 15 kratek. Po przekroczeniu jego gracz dostaje powolne obrażenia do momentu aż zginie.
+Wygraną grę zalicza po upłynięciu dwóch minut rozgrywki.
 
 | **Tryb rozgrywki** | **Ilość wysp** | **Ilość graczy** |
 |:------------------:|:--------------:|:----------------:|
@@ -19,7 +20,7 @@ Zmierz się ze swoimi znajomymi w grze BedWars.
 
 W trybie Duels na BedWars oferujemy grę podobną do zwkłych BedWars. Jedną z różnic jest ilość drużyn na mapie która ogranicza się do dwóch. Na tym trybie masz pewność braku teamowania się na ciebie. Na mapie ogarniczona jest liczba generatorów diamentów i emeraldów do dwóch z każdego rodzaju. Pozostałe aspekty rozgrywki nie różnią się od zwykłych BedWars.
 Do  wyboru mamy BedWars Duels **1v1, 2v2, 3v3**. Walka z jedną drużyną pozwoli ci sprawdzić swoje umiejętności w trybie BedWars, bez konieczności zwracania uwagi na pozostałe drużyny. 
-Na BedWars Duels do wyboru mamy 16 różnych map.
+Wygraną grę zalicza po upłynięciu póltorej minuty rozgrywki.
 
 **UWAGA: Podczas gry w trybie BedWars Duels nie otrzymujesz punktów do rankingu BedWars.**
 ![bedwars lobby](/assets/bedwars/npc.png)
@@ -49,14 +50,21 @@ Na arenie są 3 rodzaje generatorów.
 Generator w bazie - pojawia się w nim żelazo i złoto. Po ulepszeniu do III poziomu może respić emeraldy. Dzięki niemu możesz kupić rzeczy potrzebne do wygrania areny. 
 
 Generator diamentów - Posiada 3 poziomy które ulepszają się wraz z biegiem rozgrywki. Dzięki niemu możessz zakupić ulepszenia dla drużyny. Lista poziomów: 
-- **I poziom diamentów** - diamenty pojawiają się co 30 sekund
-- **II poziom diamentów** - diamenty pojawiają się co 20 sekund
-- **III poziom diamentów** - diamenty pojawiają się co 15 sekund
+
+|       **Poziom**       |            **Rozgrywka**            |
+|:----------------------:|:-----------------------------------:|
+|  I poziom diamentów    | Diamenty pojawiają się co 30 sekund |
+|  II poziom diamentów   | Diamenty pojawiają się co 20 sekund |
+|  III poziom diamentów  | Diamenty pojawiają się co 15 sekund |
 
 Generator Szmaragdów - Posiada 3 poziomy które ulepszają się wraz z biegiem rozgrywki. Dzięki niemu możesz zakupić rzeczy typu obsydian, łuk (moc II) lub diamentową zbroję. Lista poziomów: 
-- **I poziom szmaragdów** - diamenty pojawiają się co 60 sekund
-- **II poziom szmaragdów** - diamenty pojawiają się co 40 sekund
-- **III poziom szmaragdów** - diamenty pojawiają się co 30 sekund
+
+|       **Poziom**       |            **Rozgrywka**            |
+|:----------------------:|:-----------------------------------:|
+|  I poziom szmaragdów   | Diamenty pojawiają się co 30 sekund |
+|  II poziom szmaragdów  | Diamenty pojawiają się co 20 sekund |
+|  III poziom szmaragdów | Diamenty pojawiają się co 15 sekund |
+
 ![generator diamentów](/assets/bedwars/generator-diamenty.png)
 ![generator szmaragdów](/assets/bedwars/generator-szmaragdy.png)
 
@@ -144,15 +152,15 @@ Różne inne przydatne przedmioty do walki. Oprócz klasycznych przedmiotów, wy
 |:-----------------:|:-----------:|
 |   Złote jabłko    |   3 złota   | 
 |   Rybik cukrowy   |  40 żelaza  |
-|    kula ognia     |  40 żelaza  |
+|    Kula ognia     |  40 żelaza  |
 |        TNT        |   4 złota   |
-|    perla kresu    | 4 szmaragdy |
-|    wiadro wody    |   4 złota   |
-| automatyczny most | 2 szmaragdy |
-|       mleko       |   4 złota   |
-|       gąbka       |   3 złota   |
-|   żelazny golem   | 120 żelaza  |
-|     navigator     | 2 szmaragdy |
+|    Perla kresu    | 4 szmaragdy |
+|    Wiadro wody    |   4 złota   |
+| Automatyczny most | 2 szmaragdy |
+|       Mleko       |   4 złota   |
+|       Gąbka       |   3 złota   |
+|   Żelazny golem   | 120 żelaza  |
+|     Navigator     | 2 szmaragdy |
 
 ![sklep](/assets/bedwars/sklep.png)
 ## Modyfikator sklepu:
@@ -162,7 +170,7 @@ Po zakupie modyfikatora sklepu będziesz miał możliwość ustawienia ekwipunku
 ## Ulepszenia
 Podczas rozgrywki możesz zakupić różne ulepszenia, które pomogą wygrać arenę twojej drużynie. Do zakupu mamy 4 rodzaje ulepszeń:
 
-1. Ostrość - 4 diamenty - Twoja drużyna zyska **ostrosc I** na swoich mieczach
+1. Ostrość - 4 diamenty - Twoja drużyna zyska **ostrosc I** na swoich mieczach i siekierze.
 2. Pancerz - Twoja drużyna dostanie **ochrone** na swoja zbroje
 - ochrona I - 2 diamenty 
 - ochrona II - 4 diamenty
@@ -177,22 +185,27 @@ Podczas rozgrywki możesz zakupić różne ulepszenia, które pomogą wygrać ar
 - 3 poziom: drop szmaragdów - 12 diamentów 
 - 4 poziom: +200% dropu - 16 diamentów
 
-Pułapki: 
-1. Zasadzka - 1 diament - Nada efekt oślepienia oraz spowolnienia przeciwnikowi gdy wkroczy na twoją wyspę 
-2. Kontrnatarcie - 1 diament - Nada efekt szybkosci oraz wysokiego skoku na 10 sekund drużynie gdy znajduje sie na swojej wyspie
-3. Alarm - 1 diament -  Powiadomi twoją drużynę gdy wróg wkroczy na twoją wyspę oraz usunie mu efekt niewidzialności
-4. Powolne kopanie - 1 diament - Nada efekt powolnego kopania przeciwnikowi gdy wkroczy na twoją wyspę
+Pułapki:  
+|   **Rodzaj**    |  **Cena**   |                                         **Opis**                                                  |
+|:---------------:|:-----------:|:-------------------------------------------------------------------------------------------------:|
+|     Zasadzka    |  1 diament  |        Nada efekt oślepienia oraz spowolnienia przeciwnikowi gdy wkroczy na twoją wyspę           |
+|  Kontrnatarcie  |  1 diament  | Nada efekt szybkosci oraz wysokiego skoku na 10 sekund drużynie gdy znajduje sie na swojej wyspie |
+|      Alarm      |  1 diament  |    Powiadomi twoją drużynę gdy wróg wkroczy na twoją wyspę oraz usunie mu efekt niewidzialności   |
+| Powolne kopanie |  1 diament  |                 Nada efekt powolnego kopania przeciwnikowi gdy wkroczy na twoją wyspę             |
 
 W jednym momencie maksymalnie mogą być użyte 3 różne rodzaje pułapek. W trybie solo pierwsza pułapka kosztuje 1 diament, następna 2 diamenty, trzecia kosztuje 4 diamenty. W trybach duo, trio i czwórkach pierwsza pułapka kosztuje 2 diamenty, druga 4 diamenty i trzecia 8 diamentów
 
 ![ulepszenia](/assets/bedwars/ulepszenia.png)
+
+## Fireballe
+Aby celnie trafić fireballem musisz podczas strzału kliknąć dodatkowo **shift**. Możesz przyśpieszyć jego lot za pomocą lewego przycisku myszy.
 
 ## Ranking 
 Graj na BedWars i zdobywaj rangę, która odpowiada twoim umiejętnością. Ranga obowiązuje cały sezon i zostaje resetowania wraz z nowym sezonem. Pod koniec sezonu każdy gracz otrzyma odpowiednie nagrody, które są przypisane do rangi gracza. Im wyższa ranga tym lepsze nagrody. Ranking resetuje się po 2 tygodniach nieaktywności na trybie lub w momencie kiedy gracz otrzyma karę za nieodpowiednie oprogramowanie.
 ![ranking](/assets/bedwars/ranking.png)
 ## StatTrack
 
-StarTrack pozwala na liczenie statystyk takich jak Zniszczone Łóżka i Finall Kille. Statystyki będą wyswietlać się na czacie! Koszt zakupu wynosi 1000kc. Stattrack można aktywować oraz dezaktywować w zaleznosci od potrzeb. Posiada dwa różne tryby wyświetlania - statystyki ogólnie i sezonowe.
+StatTrack pozwala na liczenie statystyk takich jak **Zniszczone Łóżka i Finall Kille**. Statystyki będą wyswietlać się na czacie! Koszt zakupu wynosi **1000 kokscoin** i jest on **na zawsze**. Stattrack można aktywować oraz dezaktywować w zaleznosci od potrzeb. Posiada dwa różne tryby wyświetlania - statystyki ogólnie i sezonowe.
 ![stattrack](/assets/bedwars/StatTrack.png)
 ## Statystyki
 
